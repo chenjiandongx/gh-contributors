@@ -1,4 +1,4 @@
-# gh-contributors
+# gh-contributors [![PyPI version](https://badge.fury.io/py/gh-contributors.svg)](https://badge.fury.io/py/gh-contributors) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 Github 项目贡献者 Markdown 文档表格生成工具
 
@@ -36,7 +36,7 @@ optional arguments:
 $ gh-c pyecharts/pyecharts
 ```
 
-`CONTRIBUTORS.md`
+*CONTRIBUTORS.md*
 
 | <img src="https://avatars2.githubusercontent.com/u/19553554?v=4" alt="chenjiandongx" width="100px" height="100px"/> |<img src="https://avatars0.githubusercontent.com/u/4280312?v=4" alt="chfw" width="100px" height="100px"/> |<img src="https://avatars0.githubusercontent.com/u/9875406?v=4" alt="kinegratii" width="100px" height="100px"/> |<img src="https://avatars3.githubusercontent.com/u/1425636?v=4" alt="crispgm" width="100px" height="100px"/> |<img src="https://avatars3.githubusercontent.com/u/5152516?v=4" alt="muxuezi" width="100px" height="100px"/> |<img src="https://avatars1.githubusercontent.com/u/7701324?v=4" alt="landpack" width="100px" height="100px"/> |
 | :----: |:----: |:----: |:----: |:----: |:----: |
@@ -57,7 +57,7 @@ $ gh-c pyecharts/pyecharts
 $ gh-c pyecharts/pyecharts -c 7 -p 贡献者列表.md
 ```
 
-`贡献者列表.md`
+*贡献者列表.md*
 
 | <img src="https://avatars2.githubusercontent.com/u/19553554?v=4" alt="chenjiandongx" width="100px" height="100px"/> |<img src="https://avatars0.githubusercontent.com/u/4280312?v=4" alt="chfw" width="100px" height="100px"/> |<img src="https://avatars0.githubusercontent.com/u/9875406?v=4" alt="kinegratii" width="100px" height="100px"/> |<img src="https://avatars3.githubusercontent.com/u/1425636?v=4" alt="crispgm" width="100px" height="100px"/> |<img src="https://avatars3.githubusercontent.com/u/5152516?v=4" alt="muxuezi" width="100px" height="100px"/> |<img src="https://avatars1.githubusercontent.com/u/7701324?v=4" alt="landpack" width="100px" height="100px"/> |<img src="https://avatars3.githubusercontent.com/u/15723603?v=4" alt="647-coder" width="100px" height="100px"/> |
 | :----: |:----: |:----: |:----: |:----: |:----: |:----: |
