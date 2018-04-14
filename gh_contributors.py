@@ -68,7 +68,8 @@ def save(url, cnt=6, path=None):
     req = requests.get(
         "https://api.github.com/repos/{}/contributors".format(url)
     ).json()
-    # 检查参考是否存在
+
+    # 检查项目仓库是否存在
     if not isinstance(req, list):
         print("REPO DOES NOT EXIST!")
         return
@@ -87,7 +88,7 @@ def save(url, cnt=6, path=None):
             res = get_res(res, avatars, guys, split)
             avatars, guys, split = init_list()
 
-    # 剩下的内容也要追加为一个表格
+    # 剩下的贡献者追加为一个新表格
     res = get_res(res, avatars, guys, split)
     with open(path, mode="w+", encoding="utf8") as f:
         f.write(res)
